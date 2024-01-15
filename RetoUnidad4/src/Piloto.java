@@ -13,12 +13,6 @@ public class Piloto {
 		this.rangoPiloto = rangoPiloto;
 	}
 	
-	public void mostrarPiloto() {
-		
-		System.out.println("Piloto con id ==> " + idPiloto + "\n" + "Nombre ==> " + nomPiloto + "\n" + "Horas de Vuelo ==> " + horasVueloPiloto + "\n" + "Rango ==> " + rangoPiloto + "\n");
-		
-	}
-	
 	public String getRangoPiloto() {
 		return rangoPiloto;
 	}
@@ -59,7 +53,10 @@ public class Piloto {
 		this.rangoPiloto = rangoPiloto;
 	}
 	
-
+	public void mostrarPiloto() {
+		System.out.println("Piloto con id ==> " + idPiloto + "\n" + "Nombre ==> " + nomPiloto + "\n" + "Horas de Vuelo ==> " + horasVueloPiloto + "\n" + "Rango ==> " + rangoPiloto + "\n");
+		
+	}
 	
 
 }
