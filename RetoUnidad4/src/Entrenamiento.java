@@ -17,5 +17,12 @@ public class Entrenamiento extends Avion{
 	public void setTieneDobleMando(boolean tieneDobleMando) {
 		this.tieneDobleMando = tieneDobleMando;
 	}
+	
+	public void mostrarAvion() {
+		
+		System.out.println("Avion con id ==> " + this.getIdAvion() + "\n" + "Modalidad de Avion ==> " + getModAvion() + "\n" + "Capacidad ==> " + getCapAvion() + "\nTiene doble mando ==>" + tieneDobleMando);
+		this.getPiloto().mostrarPiloto();
+
+	}
 
 }

@@ -17,7 +17,12 @@ public class Combate extends Avion {
 		this.esFurtivo = esFurtivo;
 	}
 
-
+	public void mostrarAvion() {
+		
+		System.out.println("Avion con id ==> " + getIdAvion() + "\n" + "Modalidad de Avion ==> " + getModAvion() + "\n" + "Capacidad ==> " + getCapAvion() + "\nTiene doble mando ==>" + esFurtivo);
+		this.getPiloto().mostrarPiloto();
+		
+	}
 	
 	
 
