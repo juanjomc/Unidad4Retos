@@ -46,12 +46,5 @@ public class Avion {
 		this.piloto = piloto;
 	}
 	
-//	public void mostrarAvion() {
-//		
-//		System.out.println("Avion con id ==> " + idAvion + "\n" + "Modalidad de Avion ==> " + modAvion + "\n" + "Capacidad ==> " + capAvion);
-//		piloto.mostrarPiloto();
-//
-//		
-//	}
 
 }
